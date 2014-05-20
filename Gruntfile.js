@@ -960,6 +960,9 @@ module.exports = function( grunt ) {
 				}
 			},
 			"uglymongrel-additions": {
+				options: {
+					destPrefix: "js"
+				},
 				files: {
 					"uglymongrel/arschmitz/jquery-mobile-datepicker-wrapper/jquery.mobile.datepicker.js": "jquery-mobile-datepicker-wrapper/jquery.mobile.datepicker.js",
 					"uglymongrel/arschmitz/jquery-mobile-datepicker-wrapper/jquery.mobile.datepicker.css": "jquery-mobile-datepicker-wrapper/jquery.mobile.datepicker.css",

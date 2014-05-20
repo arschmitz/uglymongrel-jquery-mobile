@@ -7,7 +7,7 @@ requirejs.config({
 		"jquery": "../external/jquery/jquery",
 		"jquery-ui": "../external/jquery-ui",
 		"jquery-plugins": "../external/jquery/plugins",
-		"uglymongrel": "../external/uglymongrel"
+		"uglymongrel": "../js/uglymongrel"
 	},
 	"shim": {
 		"jquery-plugins/jquery.hashchange": [ "jquery" ],
