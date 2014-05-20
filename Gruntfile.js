@@ -227,7 +227,8 @@ module.exports = function( grunt ) {
 						"!js/jquery.js",
 						"!js/jquery.ui.widget.js",
 						"!js/widgets/jquery.ui.tabs.js",
-						"!js/jquery.ui.core.js"
+						"!js/jquery.ui.core.js",
+						"!js/*"
 					]
 				}
 			},
@@ -956,6 +957,13 @@ module.exports = function( grunt ) {
 			"jquery-plugins": {
 				files: {
 					"jquery/plugins/jquery.hashchange.js": "jquery-hashchange/jquery.ba-hashchange.js"
+				}
+			},
+			"uglymongrel-additions": {
+				files: {
+					"uglymongrel/arschmitz/jquery-mobile-datepicker-wrapper/jquery.mobile.datepicker.js": "jquery-mobile-datepicker-wrapper/jquery.mobile.datepicker.js",
+					"uglymongrel/arschmitz/jquery-mobile-datepicker-wrapper/jquery.mobile.datepicker.css": "jquery-mobile-datepicker-wrapper/jquery.mobile.datepicker.css",
+					"jquery-ui/datepicker.js": "jquery-mobile-datepicker-wrapper/external/jquery-ui/datepicker.js"
 				}
 			}
 		},

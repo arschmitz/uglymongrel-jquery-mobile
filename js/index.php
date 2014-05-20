@@ -88,6 +88,8 @@ $files = array(
 	'widgets/tabs.js',
 	'zoom.js',
 	'zoom/iosorientationfix.js',
+	'../external/jquery-ui/datepicker.js',
+	'../external/uglymongrel/arschmitz/jquery-mobile-datepicker-wrapper/jquery.mobile.datepicker.js',
 	'init.js'
 );
 

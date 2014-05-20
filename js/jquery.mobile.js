@@ -52,7 +52,9 @@ define([
 	"./widgets/filterable.backcompat",
 	"./widgets/tabs",
 	"./zoom",
-	"./zoom/iosorientationfix"
+	"./zoom/iosorientationfix",
+	"jquery-ui/datepicker",
+	"uglymongrel/arschmitz/jquery-mobile-datepicker-wrapper/jquery.mobile.datepicker",
 ], function( require ) {
 	require( [ "./init" ], function() {} );
 });
